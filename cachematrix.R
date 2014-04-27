@@ -10,7 +10,6 @@
 
 
 makeCacheMatrix <- function(x = matrix()) {
-        if(!is.matrix(x)) stop("not a matrix")
         CacheMatrix <- NULL
         set <- function(mtrx){
                 x <<- mtrx
